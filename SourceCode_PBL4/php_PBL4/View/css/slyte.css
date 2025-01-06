@@ -1,0 +1,49 @@
+/* LOGIN */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+  
+
+body {
+    background-color: var(--main-bgColor--);
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid {
+    background: #fff;
+    display: inline-block;
+    justify-content: center;
+    margin-top: 65px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 380px;
+    height: 460px;
+    box-shadow: 0 15px 20px;
+}
+
+.img-edit {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+.div-form {
+    padding: 7px 10px ;
+}
+
+.cb-login {
+    margin: 0 10px;
+}
+
+.lb{
+    margin-right: 50px;
+}
